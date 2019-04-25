@@ -11,5 +11,11 @@ namespace GeoSend.Lan
             public string nodeName;
             public int nodeSerial;
         }
+        public struct DataPacket
+        {
+            public Node endNode;
+            public IPAddress nextIP;
+            public object dataObject;
+        }
     }
 }

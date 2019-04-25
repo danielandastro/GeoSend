@@ -3,16 +3,6 @@ using System.Net;
 using System.Collections.Generic;
 namespace GeoSend.Lan
 {
-    public class DataTypes
-    {
-        public struct Node
-        {
-            public bool forward;
-            public IPAddress nodeIP;
-            public string nodeName;
-            public int nodeSerial;
-        }
-    }
     public class LANMap
     {
         public List<DataTypes.Node> ReturnNodes(List<DataTypes.Node>nodeList, string currentNodeName)
